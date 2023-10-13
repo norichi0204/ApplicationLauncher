@@ -92,5 +92,18 @@ namespace ランチャー
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            //delete押されたとき
+
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            this.TopMost = checkBox1.Checked;
+        }
     }
 }
